@@ -79,3 +79,7 @@ color:white;
 padding: 20px;
 z-index: 5;
 }
+footer{
+    background-color: red;
+    width: 100%;
+}
