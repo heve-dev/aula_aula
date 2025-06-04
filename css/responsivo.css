@@ -12,7 +12,7 @@
 se a largura for até 768 faça */
 @media (max-width: 768px){
     .navbar-desktop{
-        display: none;
+        opacity: 0;
         flex-direction: column;
         transition: transform 0.3s ease-in-out;
         transform: translateY(-100%);
@@ -30,11 +30,13 @@ se a largura for até 768 faça */
         align-items: center;
         width: 100%;
         position: absolute;
-        top: 60px;
-        left: 0;
+        top: -15px;
+        left: 0px;
         background-color: rgba(190, 117, 20, 0.493);
         transition: all 0.3s ease;
+        opacity: 1;
         transform: translateY(15%);
+        height: 100vh;
     }
     .menu-toggle:checked ~ .menu-icon .linha-menu-top{
         transform: translateY(10px) rotate(45deg);

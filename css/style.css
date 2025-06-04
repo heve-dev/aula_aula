@@ -35,18 +35,20 @@ ul{
 
 a{
     text-decoration: none;
-    color: #fd3d3d;
+    color: #028d6a;
     font-size: 1.5rem;
+    padding: 20px;
+    text-shadow: 2px 2px gray;
 }
 
 a:hover{
-    color: #2f11d6;
+    color: #018f94;
 }
 
 .logo{
     width: 80px;
     position: absolute;
-    top: 10%;
+    top: 1%;
     left: 0;
     bottom: 20%;
 }
@@ -54,4 +56,10 @@ a:hover{
 .redes{
     width: 1.5rem;
     margin-right: 10px;
+    color: #018f94;
+}
+.img{
+    width: 100%;
+    height: auto;
+    color: #028d6a;
 }
