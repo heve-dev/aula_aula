@@ -3,7 +3,20 @@
 /* media query
 se a largura for até 768 faça */
 @media (max-width: 768px){
-    
+    .navbar-desktop{
+        display: none;
+    }
+    .navbar-mobile{
+        display: flex;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        left: 0;
+        justify-content: space-evenly;
+        padding: 10px;
+        height: 60px;
+        background-color: rgba(190, 117, 20, 0.493);
+    }
 }
 @media (max-width: 460px){
     
