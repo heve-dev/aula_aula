@@ -1,0 +1,70 @@
+header{
+    z-index: 10;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 0;
+    background: rgba(190, 117, 20, 0.493);
+    backdrop-filter: blur(10px);
+    color: #5f2f01;
+    text-align: left;
+    border-style: ridge;
+    border-color: rgb(156, 88, 5);
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+nav a{ 
+    text-decoration: none;
+    color: #028d6a;
+    font-size: 1.5rem;
+    padding: 20px;
+
+}
+a:hover{
+    color: #018f94;
+    cursor: url("cursor/cursor-mao.svg"), auto;
+}
+
+.logo{
+    width: 80px;
+    animation: fadeIn 1s ease-in forwards;
+    position: absolute;
+    top: 1%;
+    left: 0;
+    bottom: 20%;
+}
+.logo:hover{
+    animation: pulse 1s infinite;
+}
+.redes{
+    width: 1.5rem;
+    margin-right: 10px;
+}
+.menu-icon{
+    display: none;
+    cursor: pointer;
+}
+.img{
+    width: 100%;
+    height: auto;
+    color: #028d6a;
+    position: relative;
+}
+.linha-menu-top, .linha-menu-bottom{
+    height: 5px;
+    width: 50px;
+    background-color: #35af91;
+    margin-top: 10px;
+}
+.linha-menu-center{
+    background-color: rgb(53, 175, 145);
+    width: 115%;
+    height: 9px;
+    margin: 5px 0;
+}
+.menu-toggle{
+    display: none;
+}
