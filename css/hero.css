@@ -1,0 +1,16 @@
+.hero{
+    position: relative;
+    text-align: center;
+    margin: 10rem 1rem 1rem 1rem;
+    width: 97%;
+    border-left: #005813 solid 1px;
+    border-bottom: #04c033 solid 3px;
+    border-right: transparent;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+.hero-image{
+    width: 97%;
+    height: auto;
+    z-index: 1;
+}

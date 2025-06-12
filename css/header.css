@@ -12,13 +12,12 @@ header{
     border-style: ridge;
     border-color: rgb(156, 88, 5);
 }
-ul{
+header ul{
     display: flex;
     list-style: none;
     position: absolute;
-    right: 2%;
-    top: 2%;
-
+    right: 25%;
+    top: 40%;
 }
 nav a{ 
     text-decoration: none;
@@ -28,7 +27,7 @@ nav a{
 
 }
 a:hover{
-    color: #018f94;
+    color: #004e41;
     cursor: url("cursor/cursor-mao.svg"), auto;
 }
 
@@ -52,7 +51,7 @@ a:hover{
     cursor: pointer;
 }
 .img{
-    width: 100%;
+    width: 90%;
     height: auto;
     color: #028d6a;
     position: relative;
